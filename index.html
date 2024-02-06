@@ -78,10 +78,10 @@
                     <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div class="navbar-nav ms-lg-auto mx-xl-auto">
                             <a href="index.html" class="nav-item nav-link active text-success">Home</a>
-                            <a href="about.html" class="nav-item nav-link text-success">About</a>
-                            <a href="activity.html" class="nav-item nav-link text-success">Activities</a>
-                            <a href="event.html" class="nav-item nav-link text-success">Events</a>
-                            <a href="sermon.html" class="nav-item nav-link text-success">Sermons</a>
+                            <a href="about.html" class="nav-item nav-link text-success">Profil</a>
+                            <a href="activity.html" class="nav-item nav-link text-success">Aktivitas</a>
+                            <a href="event.html" class="nav-item nav-link text-success"> Galery</a>
+                            <a href="sermon.html" class="nav-item nav-link text-success">Organisasi</a>
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu m-0 rounded-0">
@@ -127,25 +127,68 @@
 
 
         <!-- About Satrt -->
-        <div class="container-fluid about py-3">
-            <div class="container py-3">
-                <div class="row g-5 mb-5">
-                    <div class="col-xl-6">
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s" alt="">
-                            </div>
-                            <div class="col-6">
-                                <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s" alt="">
-                                <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeIn" data-wow-delay="0.5s">
-                        <p class="fs-5 text-uppercase text-success text-center">Masjid Kartini</p>
-                        <h1 class="display-5 pb-4 m-0">Pengenalan</h1>
-                        <p class="pb-4">Ini adalah pengenalan</p>
-                       </div>
+        <style>
+            body {
+               font-family: 'Your Font Here', sans-serif;
+            }
+      
+            .container-fluid.about {
+               background-color: #f8f9fa;
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+      
+            .img-fluid:hover {
+               transform: scale(1.1);
+               transition: transform 0.3s ease-in-out;
+            }
+      
+            h1.gradient-text {
+               background: linear-gradient(to right, #ff9900, #ff0000);
+               -webkit-background-clip: text;
+               color: transparent;
+            }
+      
+            .animated-icon {
+               animation: bounce 1s infinite;
+            }
+      
+            @keyframes bounce {
+               0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+               }
+               40% {
+                  transform: translateY(-20px);
+               }
+               60% {
+                  transform: translateY(-10px);
+               }
+            }
+         </style>
+      </head>
+      <body>
+      
+      <div class="container-fluid about py-3">
+         <div class="container py-3">
+            <div class="row g-5 mb-5">
+               <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.5s">
+                  <p class="fs-5 text-uppercase text-success text-center">Masjid Kartini</p>
+                  <h1 class="display-5 pb-4 m-0 gradient-text">Pengenalan <span class="animated-icon">🚀</span></h1>
+                  <p class="pb-4">Ini adalah pengenalan</p>
+               </div>
+               <div class="col-xl-6">
+                  <div class="row g-4">
+                     <div class="col-6">
+                        <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s" alt="">
+                     </div>
+                     <div class="col-6">
+                        <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                        <img src="https://www.obbstartersandalternators.com/getimage/test.png&w=421&h=421" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
         <!-- About End -->
 
 
@@ -153,14 +196,14 @@
         <div class="container-fluid activities py-5">
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h1 class="display-3">AKTIVITAS SELAMA RAMADHAN</h1>
+                    <h1 class="display-3">Aktivitas</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-6 col-xl-4">
                         <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
                             <i class="fa fa-mosque fa-4x text-dark"></i>
                             <div class="ms-4">
-                                <h4>Test</h4>
+                                <h4>TPA</h4>
                                 <p class="mb-4">Test</p>
                                 <a href="" class="btn btn-success px-3">test</a>
                             </div>
@@ -170,7 +213,7 @@
                         <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.3s">
                             <i class="fa fa-quran fa-4x text-dark"></i>
                             <div class="ms-4">
-                                <h4>Test</h4>
+                                <h4>Ramadhan</h4>
                                 <p class="mb-4">test</p>
                                 <a href="" class="btn btn-success px-3">test</a>
                             </div>
@@ -180,7 +223,7 @@
                         <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.5s">
                             <i class="fa fa-quran fa-4x text-dark"></i>
                             <div class="ms-4">
-                                <h4>test</h4>
+                                <h4>Idul Adha</h4>
                                 <p class="mb-4">test</p>
                                 <a href="" class="btn btn-success px-3">test</a>
                             </div>
@@ -229,14 +272,14 @@
                 <div class="row g-4 event-item wow fadeIn" data-wow-delay="0.1s">
                     <div class="col-3 col-lg-2 pe-0">
                         <div class="text-center border-bottom border-dark py-3 px-2">
-                            <h6>FEBRUARI</h6>
-                            <p class="mb-0">JUM 11:11</p>
+                            <h6>11 MARET 2024</h6>
+                            <p class="mb-0">1 Ramadhan 1445H</p>
                         </div>
                     </div>
                     <div class="col-9 col-lg-6 border-start border-dark pb-5">
                         <div class="ms-3">
                             <h4 class="mb-3">Puasa</h4>
-                            <p class="mb-4">test </p>
+                            <p class="mb-4"> Cek Jadwal Puasa Ramadhan 1445H</p>
                             <!-- <a href="#" class="btn btn-primary px-3">Join Now</a>  -->
                         </div>
                     </div>
@@ -249,14 +292,14 @@
                 <div class="row g-4 event-item wow fadeIn" data-wow-delay="0.3s">
                     <div class="col-3 col-lg-2 pe-0">
                         <div class="text-center border-bottom border-dark py-3 px-2">
-                            <h6>MARET</h6>
-                            <p class="mb-0">JUM 11:11</p>
+                            <h6>10 APRIL 2024</h6>
+                            <p class="mb-0">1 Syawal 1445H</p>
                         </div>
                     </div>
                     <div class="col-9 col-lg-6 border-start border-dark pb-5">
                         <div class="ms-3">
                             <h4 class="mb-3">Idul Fitri</h4>
-                            <p class="mb-4">test </p>
+                            <p class="mb-4"> Menurut SKB 3 menteri terbaru tentang hari libur nasional dan cuti bersama 2024 pada Selasa (12/9/2023). Bahwa Idul Fitri 2024 jatuh pada tanggal 10 dan 11 April 2024, tepatnya pada hari Rabu dan Kamis. Sebagai informasi, kapan tepatnya hari raya Idul Fitri 1 Syawal 1445 H akan ditentukan lagi dan disahkan secara resmi melalui sidang isbat Kementerian Agama (Kemenag) </p>
                             <!-- <a href="#" class="btn btn-primary px-3">Join Now</a> -->
                         </div>
                     </div>
@@ -269,14 +312,14 @@
                 <div class="row g-4 event-item wow fadeIn" data-wow-delay="0.5s">
                     <div class="col-3 col-lg-2 pe-0">
                         <div class="text-center border-bottom border-dark py-3 px-2">
-                            <h6>MARET</h6>
-                            <p class="mb-0">JUM 11:11</p>
+                            <h6>17 JUNI 2024</h6>
+                            <p class="mb-0">10 Dzulhijjah 1445H</p>
                         </div>
                     </div>
                     <div class="col-9 col-lg-6 border-start border-dark pb-5">
                         <div class="ms-3">
                             <h4 class="mb-3">Idul Adha</h4>
-                            <p class="mb-4">test </p>
+                            <p class="mb-4">Berkurban saat hari raya Idul Adha merupakan sebuah pengingat kepada manusia bahwa jalan menuju surga membutuhkan pengorbanan dan ketaatan atas perintah-Nya sebagaimana kisah Nabi Ibrahim a.s dan Nabi Ismail a.s.</p>
                             <!-- <a href="#" class="btn btn-primary px-3">Join Now</a> -->
                         </div>
                     </div>
